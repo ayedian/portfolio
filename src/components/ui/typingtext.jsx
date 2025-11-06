@@ -14,5 +14,5 @@ export function TypingText({ text, speed = 80, className = "" }) {
     }
   }, [index, text, speed]);
 
-  return <h1 className={`whitespace-nowrap ${className}`}>{displayedText}</h1>;
+  return <h1 className={`lg:whitespace-nowrap ${className}`}>{displayedText}</h1>;
 }
