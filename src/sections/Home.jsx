@@ -1,5 +1,5 @@
-import React from "react";
-import TypingText from "@/components/ui/TypingText";
+
+import { TypingText } from "../components/ui/typingtext";
 
 export default function Home() {
   return (
